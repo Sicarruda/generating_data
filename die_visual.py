@@ -58,9 +58,8 @@ class Die_Visual():
         # Visualize the results.
 
         analyzed_result = self.analyze_result()
-        print(analyzed_result)
 
-        title = f"Results of Rolling  1.000 TImes"
+        title = f"Results of Rolling dice(s) {self.rolls} Times"
         labels = {"x": "Result", "y": "Frequency of Results"}
         fig = px.bar(x=analyzed_result[0], y=analyzed_result[1], title=title, labels=labels)
 
