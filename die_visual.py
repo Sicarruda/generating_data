@@ -69,6 +69,6 @@ class Die_Visual():
         fig.show()
 
 
-die_teste = Die_Visual(5000,dices=[6,6,6])
+die_teste = Die_Visual(100000,dices=[6])
 
 die_teste.visualize_grafic()
